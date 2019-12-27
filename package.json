@@ -1,6 +1,6 @@
 {
   "name": "sync-storage",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Synchronous storage for React Native.",
   "main": "src/index.js",
   "scripts": {
@@ -32,7 +32,7 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": ">=0.61"
+    "react-native": "0.79.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.7.5",
@@ -76,14 +76,14 @@
     "jest-cli": "^24.9.0",
     "metro-react-native-babel-preset": "^0.57.0",
     "prettier-eslint": "^9.0.1",
-    "react": "^16.6.3",
-    "react-native": "^0.61.5",
-    "react-test-renderer": "16.12.0",
+    "react": "19.0.0",
+    "react-native": "0.79.3",
+    "react-test-renderer": "19.0.0",
     "regenerator-runtime": "^0.13.3",
     "typescript": "^3.7.3"
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.6.3"
+    "@react-native-async-storage/async-storage": "^2.2.0"
   },
   "prettier": {
     "trailingComma": "all",
